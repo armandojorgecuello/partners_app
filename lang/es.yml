@@ -1,0 +1,365 @@
+loginPage:
+    appName:                        Honey IOU
+    text_1:                         Bienvenido a Honey IOU 
+    text_2:                         Ingrese su numero de teléfono, y le estaremos enviando un código de verificación
+    buttomText:                     Continuar
+home_page:
+    emtpy_request:                  Tu búsqueda no puede estar vacía
+    search_hint:                    Escribe aquí lo que quieras buscar...
+    send:                           Para
+    received:                       De
+    add_partner:                    Agrega una pareja
+    task_filter:                    Filtros de tareas
+    partner_filter:                 Selecciona una pareja
+    option:                         Seleccione una opción
+    openNegociation:                Negociaciones abiertas
+    allTask:                        Todas las tareas
+    sendByMe:                       Enviadas
+    receiveFromPartner:             Recibidas
+    endingSoon:                     Proximas a finalizar
+    expired:                        Expiradas 
+    noPartner:                      Vemos que no tienes ningua pareja
+    noPartner1:                     Para comenzar a divertirte en Honey IOU debes agregar una pareja
+    noPartner2:                     Agrega una pareja
+    noTask:                         No tienes tareas asignadas
+    noOpenTask:                     No tienes tareas abiertas    
+    reward:                         Recompensa 
+    notStarted:                     No iniciada
+    notStartedSender:               Pagar por tu pareja
+    open:                           Abierta
+    started:                        Iniciada
+    rejected:                       Rechazada
+    pendingReceiver:                En espera
+    finished:                       Completada
+    textR1:                         Tu pareja a rechazado esta negociación
+    notStartedButtomsender:         Esperando por tu pareja
+    text_1:                         Aun no tienes tareas
+    textPartnerEmptyList:           No tienes ninguna pareja
+    openButtomSender:               Esperando por tu pareja
+    acceptedButtonSender:           Esperando que la tarea sea finalizada
+    rejectedButtonSender:           Esta tarea fue rechazada     
+    pendingReceiverButtomSender:    Esperando por tu pareja
+    completedButtomSender:          Revision pendiente
+    openButtomReceiver:             Abrir
+    notStartedButtonReceiver:       Iniciar negociación
+    pendingReceiverButtomReceiver:  Abierta
+    paidUpFrontStatus:              Pagar por tu pareja
+    paidUpFront:                    Paga 1 crédito por tu pareja
+    rejectedButtonReceiver:         Esperando nuevos términos
+    aceptedButtonReceiver:          Abierta
+    completedButtomReceiver:        Revisión pendiente
+    tapToSelectPartner:             Toca aquí para seleccionar una pareja
+    selectAnotherPartner:           Selecciona otra pareja 
+    selectorPartnerInfo:            No tienes tareas asignadas por
+    sheetSelectorPartnerInfo:       Seleccionar
+    notask:                         No hay tareas        
+    noImageReward:                  Agregar una foto de la recompensa
+    addPicture:                     Sin imagen
+    noImageRewardReceiver:          No hay imagen de recompensa     
+    textDialogTaskCompleted:        Deja saber a tu pareja tu opinión acerca de los resultados de esta tarea
+    askEndTaskreview:               ¿Estas satisfecho con los resultados de esta tarea?
+    buttonTaskCompletedDialogYes:   Si 
+    buttonTaskCompletedDialogNo:    No
+    sendReview:                     Enviar review
+    checkReview:                    Ver observaciones
+    reviewStatus:                   Revisada      
+    reviewDescription:              Comentarios de tu pareja   
+    reviewbuttonGodJob:             Buen trabajo
+    reviewbuttonBadReview:          Baja calificación
+    commentsEmpty:                  No tienes comentarios 
+    noDate:                         Sin fecha de entrega
+    sendTaskTitlePopUp:             Has enviado una tarea para                       
+    sendTaskDescPopUp:              Tu pareja y tu podran empezar a negociar los terminos de la tarea usando 1 credito de tu saldo
+    sendbyme:                       Enviado por ti
+    receivedfrom:                   Recibido             
+setting:
+    back:                           Atrás
+    settings:                       Configuración
+    myAccount:                      Mi Cuenta
+    myProfile:                      Perfil
+    myPartner:                      Parejas
+    myImages:                       Mis Imagenes
+    changePhone:                    Cambiar mi número celular
+    extraSecurity:                  Seguridad Extra
+    notifications:                  Notificaciones
+    confiNotify:                    Configuracion de Notificaciones
+    more:                           Mas
+    privPolicy:                     Politica de Privacidad
+    termsServ:                      Terminos de Servicio
+    frequentlyQuestions:            Preguntas Frecuentes
+    support:                        Soporte Técnico
+profilePage:
+    back:                           Atrás
+    titleProfile:                   Perfil
+profileInputs:
+    name:                           Nombre    
+    nameLabel:                      Ingresa tu nombre   
+    preferences:                    Preferencias
+    preferencesText:                Escribe tus preferencias
+    preferencestextHelper:          Ingresa lo que te gustaría recibir como pago por tus tareas, estas preferencias se mostrarán a tus parejas cuando soliciten nuevas tareas
+    email:                          Correo
+    emailLabel:                     Escribe tu correo
+    partnerCheck:                   Quiero auto aprobar todas las solicitudes de pareja
+    accepTerms:                     Deseo recibir correos electrónicos con noticias y actualizaciones sobre la aplicación Honey IOU
+    textButtomProfile:              Guardar
+    snackBarText:                   Tu perfil ha sido atualizado
+    pictureProfileText:             Cambiar foto de perfil
+    snakbarPictureUpdate:           Tu foto de perfil ha sido actualizada
+    username:                       Código único de usuario
+newTask:
+    titleTask:                      Iniciar negociación
+    back:                           Atrás
+    taptoSelectPartmer:             Toque aquí para seleccionar una pareja
+    partner:                        Pareja
+    taskName:                       Tarea 
+    taskHint:                       ¿Qué deseas que tu pareja realice?                      
+    timeLimit:                      Tiempo límite ( opcional )
+    hintTimeLimit:                  ¿Cuándo quieres que este lista?
+    rewardTitle:                    Recompensa
+    hintReward:                     ¿Qué recibirá tu pareja por esta tarea?
+    rewardImage:                    Imagen de recompensa( opcional )
+    buttomTaskText:                 Iniciar negociación 
+startNegociation:
+    back:                           Atrás 
+    notStarted:                     No iniciada
+    buttomText:                     Iniciar negociación
+    buttomText2:                    Continuar 
+    buttomText3:                    Cancelar
+    popUpText:                      Iniciar esta negociación te costara 1 credito IOU
+    open:                           Abierta
+    started:                        Iniciada
+    rejected:                       Rechazada
+    pendingReceiver:                En espera
+    noImageRewardReceiver:          No hay imagen de recompensa
+    noImageRewardSender:            Agrega una imagen de recompensa
+    whatchVideo:                    Ver un video
+    afterPaymentText1:              Ya puedes negociar con
+    afterPaymentDesc:               Recuerda ser muy especifico con tus términos, para que tú y tu pareja queden satisfechos
+    okButtonDialog:                 Ok
+completeTask:
+    back:                           Atrás
+    rewardImage:                    Imagen de Recompensa (Opcional)
+    reward:                         Recompensa
+updateTask:
+    title:                          Editar
+    back:                           Atrás
+    taskTitle:                      Tarea
+    taskHint:                       ¿Qué deseas que tu pareja realice?                      
+    timeLimit:                      Tiempo límite ( opcional )
+    rewardTitle:                    Recompensa
+    hintReward:                     ¿Qué recibira tu pareja por esta tarea?
+    rewardImage:                    Imagen de recompensa( opcional )
+    buttomTaskText:                 Actualizar tarea 
+    cameraText:                     Cámara
+    galleryText:                    Galería    
+viewReward:
+    back:                           Atrás
+    title:                          Recompensa
+    rewardDescription:              Por esta tarea obtendras
+    rewardImage:                    Imagen de recompensa (opcional)
+viewTask:
+    back:                           Atrás
+    title:                          Tarea
+    rewardDescription:              Por esta tarea obtendras
+    rewardImage:                    Imagen de recompensa (opcional)
+chatPage:
+    back:                           Atrás
+    newTermsText:                   Escriba aquí sus nuevos terminos
+    sentButtom:                     Enviar
+    open:                           Abierta       
+    openButtom1:                    Ver recompesa                     
+    openButtom2:                    Aceptar          
+    openButtom3:                    Rechazar
+    pendingReceiver:                En espera
+    pendingReceiverButtomSender:    Editar tarea
+    pendingReceiverButtom1:         Ver recompesa         
+    pendingReceiverButtom2:         Rechazar   
+    pendingReceiverButtom3:         Aceptar         
+    started:                        Iniciada
+    startedButtom1:                 Completar tarea
+    startedButtom2:                 Ver recompensa
+    rejected:                       Rechazada
+    rejectedButtom:                 Esperando nuevos terminos
+    completed:                      Completada
+    completedButtom:                Ver recompensa
+    startedButtomSender:            Esperando que tu pareja complete la tarea
+    rejectedSenderButtom1:          Editar tarea
+    notStarted:                     No iniciada
+    notStartedSender:               No iniciada
+    notStartedButtom1:              Ver tarea
+    confirmCompletedTask:           ¿Estás seguro que esta tarea esta completada?
+    confirmCompletedTask1:          Recibiras tu recompenza solamente después que esta tarea este finalizada
+    cancelButtom:                   Cancelar
+    acceptButtom:                   Yes
+    rejectButton:                   No
+    selectOption:                   Seleccione una opción
+    initialValue:                   Todas las tareas
+    value1:                         Negociación
+    cameraText:                     Cámara
+    galleryText:                    Galería
+    taskHint:                       ¿Qué deseas que tu pareja realice?                      
+    timeLimit:                      ¿Cuando desea el/ella que este listo?
+    rewardHint:                     ¿Que obtendrás por esto?
+    fimishTextDetail:               Detalle
+    fimishTextDetailDesc:           Tu compañero podrá calificarte positiva o negativamente después de entregar esta tarea    
+addPartners:                       
+    back:                           Atrás
+    title:                          Agregar pareja
+    text:                           Use la aplicación de sus parejas para escanear este código QR y comience a disfrutar de HoneyIOU
+    buttomText:                     Escanear código QR
+    messageSnackbar:                Solicitud enviada a
+    messageSnackbar1:               Código QR invalido
+    showDialogButtom:               Aceptar
+    textDialogAfterScan1:           Ahora
+    textDialogAfterScan2:           está en tu lista de compañeros
+    textDialogAfterScan3:           Ya puedes enviar y recibir tareas, negociar con él tus términos
+    buttomII:                       Ingresar código de usuario
+    addPopupText:                   Agregar con código único de tu pareja
+    addPopupTextI:                  Ingresa el código que te dio tu pareja para agregarlo a tu lista de parejas.
+    errortext:                      Este código de usuario no existe, por favor intenta con uno diferente.
+    userCodeDesc0:                  Tambien puedes
+    userCodeDesc:                   Copiar este código. Compártelo con tus parejas. Acepta sus solicitudes (o auto aceptalas en configuraciones 
+    userCodeDescI:                  Disfruta HoneyIOU.
+    snackbarCopyCode:               Tu codigo ha sido copiado a tu portapapeles
+    popUpPartnerRequesExistsTitle:  No se puede añadir a este usuario en este momento.
+    popUpPartnerRequesExistsDesc:   Ya enviaste una solicitud de pareja a este usuario. 
+    popUpPartnerAccepExistsTitle:   Este usuario ya se encuentra en tu lista de parejas   
+    popUpPartnerAccepExistsDesc:    Ya añadiste a esta pareja, todo esta listo para enviarle o recibir tarea
+    sameUserCodeTitle:              No puedes añadirte a ti mismo.
+    sameUserCodeDesc:               Prueba con un codigo distinto la proxima vez
+    dialogCancelScan:               El escáner ha sido cancelado
+    dialogCancelScanDesc:           No se ha enviad ninguna solicitud de pareja
+partnersAccepted:    
+    title:                          Mis Parejas 
+    back:                           Atrás
+    messageEmptyList:               No tienes parejas aun
+    deleteButtom:                   Eliminar
+    textDelete:                     ¿Esta seguro?
+    textDelete2:                    Al borrar esta pareja todos las tareas asociadas a ella desapareceran
+    textDelete3:                    ¿Desea continuar?
+    continueButtom:                 Continuar
+    phone:                          Telefono 
+    preferences:                    Preferencias
+    addPartner:                     Agregar pareja    
+    acceptedButtom:                 Aceptado 
+    textEmptyPreferences:           No tiene preferencias aun                 
+partnersRequest:
+    title:                          Solicitudes de pareja    
+    back:                           Atrás
+    preferences:                    Preferencias
+    buttomAccept:                   Aceptar
+    messageEmptyList:               No tienes solicitudes pendientes por aceptar
+    messageAccept:                  Solicitud aceptada
+    messageDialogAccept:            Has aceptado la solicitud de 
+    messageDialogAccept2:           Exitosamente
+    buttomText:                     Agregar pareja
+    description:                    Ya puedes enviar y recibir tareas de           
+notifications:  
+    title:                          Notificaciones
+    back:                           Atrás                               
+    pushNotifi:                     Notificaciones Movil                        
+    emailNotifi:                    Permitir Emails
+images:
+    back:                           Atrás
+    title:                          Mis Imágenes
+    galleryText:                    Galería
+    cameraText:                     Cámara
+    snackBarText:                   Tu foto se subio satisfactoriamente             
+    text_1:                         Aun no tienes fotos
+privacyPolicy:    
+    back:                           Atrás
+    title:                          Política de Privacidad
+termServ:                           
+    back:                           Atrás
+    title:                          Términos de Servicio
+phoneNumber:
+    back:                           Atrás
+    title:                          Cambiar número celular
+    buttonText:                     Enviar código de verificacion
+support:
+    title:                          Soporte Técnico
+    back:                           Atrás
+    emptyListMessage:               No has enviado ningun mensaje al soporte
+    date:                           Fecha
+    subject:                        Tema
+    description:                    Descripción
+    submitTicket:                   Enviar un nuevo ticket de soporte
+messageSupport:
+    title:                          Soporte Técnico
+    back:                           Atrás
+    message:                        Déjenos un mensaje, lo contactaremos dentro de 24 a 36 horas con una resolución 
+    subject:                        Tema
+    error:                          ¿Cuál es el problema que estás experimentando con nuestra aplicación?
+    description:                    Descripción
+    descriptionHint:                Describe el problema que estás experimentando con nuestra aplicación
+    submit:                         Enviar
+    dialogTitle:                    Tu ticket de soporte ha sido creado satisfactoriamente
+    dialogsubTitle:                 Nos comunicaremos con usted dentro de 24 a 36 horas con una solución
+    buttomDialog:                   Continuar
+verify:
+    textVal:                        Ingresa tu código de verificación
+    haventCode:                     No he recibido un codigo de verificación
+    buttomResend:                   Reenviar
+    verifyButtom:                   Verificar
+    snackBarText1:                  OTP inválido
+    snackBarText2:                  El numero parece inválido
+    snackBarText3:                  Autenticación iniciada
+    snackBarText4:                  OTP enviado
+    snackBarText5:                  OTP reenviado
+    snackBarText6:                  Tiempo de espera agotado
+buyCredits:
+    title:                          Créditos IOU
+    back:                           Atrás
+    remainCounter:                  Siguiente moneda en
+    remainCounterI:                 Siguiente video en
+    popUpTitle:                     Has recibido una moneda
+    popUpDesc:                      Puedes usar este crédito iniciando tareas o pagando por adelantado las negociaciones que te envíe tu pareja
+    popUpNoCredits:                 No tienes creditos para pagar por esta tarea. Compra unos creditos o mira un video para poder continuar con esta tarea
+    popUppayPartner:                Se le notificará a tu pareja que has pagado esta tarea por ella.     
+payYourPartner:
+    back:                           Atrás
+    notStarted:                     Pagar por tu pareja
+    buttomText:                     Pagar IOU
+    buttomText2:                    Continuar 
+    buttomText3:                    Cancelar
+    popUpText:                      Iniciar esta negociación te costara 1 crédito IOU de tu cuenta
+    open:                           Abierta
+    started:                        Iniciada
+    rejected:                       Rechazada
+    pendingReceiver:                En espera
+    reward:                         Recompensa
+notification:
+    back:                           Atrás
+    title:                          Notificaciones
+    receivedRequest:                te ha enviado una solicitud.
+    autoAllow:                      ha sido automáticamente añadido a tus parejas.
+    updateTask:                     actualizó una tarea.
+    completedTask:                  completó una tarea.
+    rejectedTask:                   rechazó una tarea.
+    startedTask:                    inició una tarea.
+    paidUpFrontTask:                ha pagado por tu tarea.
+    openTask:                       abrió una tarea que enviaste.
+    sendMessage:                    te ha enviado un mensaje en una de tus tareas.
+    newTask:                        te ha enviado una tarea.        
+    textEmpty:                      No tienes notificaciones aún.
+onboarding:
+    titleTask:                      Cambia la Luz de la entrada
+    taskButtom:                     Abrir
+    titleExp:                       Bienvenido a Honey IOU
+    reward:                         Recompensa
+    rewardDesExample:               Llevar los niños a la cama
+    openTask:                       Negociaciones abiertas
+    status:                         Abierta
+    addTask:                        Agrega una tarea
+    addTaskText:                    Crea una tarea que quieras que tu pareja realice, y negocia con tu pareja hasta que ambos la aprueben
+    credits:                        Creditos
+    creditsDescriptions:            Cada tarea que negocies requerirá un crédito. Puedes obtener un crédito gratis por día mirando un video. ¿No quieres esperar? ¡Puedes comprar créditos para continuar de inmediato!
+    negociate:                      Negociar
+    negociateDescriptions:          Abre las tareas que tus compañeros han creado y negocia los términos con ellos
+    finishOnboarding:               Diviertete con tus parejas
+    buttomStarted:                  Iniciar
+# verifyCode:
+    # textVerification:               Hemos enviado un codigo de verificacion a
+    # phoneAuthStarted:               Autenticación iniciada
+    # resentCode:                     Hemos reenviado un codigo a
+    # phoneAuthStarted:               Has iniciado la autenticacion 

@@ -1,0 +1,359 @@
+loginPage:
+    appName:                        Honey IOU
+    text_1:                         Welcome to adults tasks         
+    text_2:                         Please enter your phone number, we will sent you a validation code
+    buttomText:                     Continue
+home_page:
+    emtpy_request:                  Your search can't be empty
+    search_hint:                    Type here your search terms...
+    send:                           To
+    received:                       From
+    add_partner:                    Add partner
+    task_filter:                    Tasks filters
+    partner_filter:                 Select a partner
+    option:                         Select an option
+    openNegociation:                Open negotiations
+    allTask:                        All tasks
+    sendByMe:                       Sent by me
+    receiveFromPartner:             Received
+    endingSoon:                     Ending soon
+    expired:                        Expired          
+    noPartner:                      It seems you don't have any partners yet
+    noPartner1:                     To be able to enjoy Honey IOU you need to first to add a partner
+    noPartner2:                     Add a partner
+    noTask:                         You have not assigned tasks
+    noOpenTask:                     You have not open tasks
+    reward:                         Reward
+    notStarted:                     Not started
+    notStartedSender:               Pay for your partner
+    open:                           Open
+    started:                        Started
+    rejected:                       Rejected
+    pendingReceiver:                Pending receiver
+    finished:                       Completed
+    textR1:                         Your partner has rejected this negotiation
+    notStartedButtomsender:         Waiting for your partner
+    text_1:                         You don't have any tasks yet
+    textPartnerEmptyList:           You don't have any partners yet
+    openButtomSender:               Waiting for your partner
+    acceptedButtonSender:           Waiting for your partner to complete this task
+    rejectedButtonSender:           Your partner has rejected this negotiation
+    pendingReceiverButtomSender:    Waiting for your partner
+    completedButtomSender:          Pending review
+    openButtomReceiver:             Open
+    notStartedButtonReceiver:       Start negotiation
+    pendingReceiverButtomReceiver:  Open
+    paidUpFrontStatus:              Pay for your partner
+    paidUpFront:                    Pay 1 credit for your partner
+    rejectedButtonReceiver:         Waiting for new terms
+    aceptedButtonReceiver:          Open
+    completedButtomReceiver:        Pending review
+    tapToSelectPartner:             Tap here to select a partner                     
+    selectAnotherPartner:           Select another partner
+    selectorPartnerInfo:            You haven't received tasks from
+    sheetSelectorPartnerInfo:       Select   
+    noImageReward:                  Add reward image
+    addPicture:                     No image
+    noImageRewardReceiver:          No image reward
+    textDialogTaskCompleted:        Let your partner know your thoughts about this task performance
+    askEndTaskreview:               Are you satisfied with this task outcome?
+    buttonTaskCompletedDialogYes:   Yes 
+    buttonTaskCompletedDialogNo:    No
+    rendReview:                     Send review
+    checkReview:                    Check review
+    reviewStatus:                   Reviewed
+    reviewDescription:              Partner comments
+    reviewbuttonGodJob:             Good job
+    reviewbuttonBadReview:          Bad review
+    commentsEmpty:                  No comments yet
+    noDate:                         No due date
+    sendTaskTitlePopUp:             You've sent a task for                       
+    sendTaskDescPopUp:              You and your partner will be able to negotiate the task terms using 1 credit of your balance
+    sendbyme:                       Sent by you
+    receivedfrom:                   Received 
+setting:
+    back:                           Back 
+    settings:                       Settings
+    myAccount:                      My Account
+    myProfile:                      My Profile
+    myPartner:                      My Partners
+    myImages:                       My Images
+    changePhone:                    Change my phone number
+    extraSecurity:                  Extra security
+    notifications:                  Notifications
+    confiNotify:                    Notifications Settings  
+    more:                           More 
+    privPolicy:                     Privacy Policy  
+    termsServ:                      Terms of Service
+    frequentlyQuestions:            Frequently Asked Questions
+    support:                        Support
+profilePage:
+    back:                           Back
+    titleProfile:                   My Profile
+profileInputs:                      
+    name:                           Name    
+    nameLabel:                      Enter your name   
+    preferences:                    Preferences
+    preferencesText:                Enter preferences here
+    preferencestextHelper:          Enter things you would like to receive as payment for your tasks, this preferences will be shown to your partners when asking for tasks
+    email:                          Email
+    emailLabel:                     Enter your e-mail
+    partnerCheck:                   I want to auto approve all partner requests
+    accepTerms:                     I want to receive emails with news and updates about HoneyIOU app
+    textButtomProfile:              Save
+    snackBarText:                   Your profile has been updated
+    pictureProfileText:             Change profile picture
+    snakbarPictureUpdate:           Your profile picture has been updated
+    username:                       User unique code
+newTask:
+    titleTask:                      Start negotiation
+    back:                           Back
+    taptoSelectPartmer:             Tap here to select a partner
+    partner:                        Partner
+    taskName:                       Task 
+    taskHint:                       Name what you want to get from your partner?                      
+    timeLimit:                      Time limit (optional)
+    hintTimeLimit:                  When do you want the task to be done?
+    rewardTitle:                    Reward
+    hintReward:                     What will your partner receive for finishing this task?
+    rewardImage:                    Reward image (optional)
+    buttomTaskText:                 Start negotiation 
+startNegociation:
+    back:                           Back 
+    notStarted:                     Not started
+    buttomText:                     Start negotiation
+    buttomText2:                    Continue 
+    buttomText3:                    Cancel
+    popUpText:                      Starting this negotiation will deduct 1 IOU credit
+    open:                           Open
+    started:                        Started
+    okButtonDialog:                 Ok
+    rejected:                       Rejected
+    pendingReceiver:                Pending receiver
+    noImageRewardReceiver:          No reward image
+    noImageRewardSender:            Add reward image
+    whatchVideo:                    Watch a video    
+    afterPaymentText1:              Now you can negotiate with              
+    afterPaymentDesc:               Remember to be very specific with your terms, so you and your partner are satisfied. 
+completeTask:
+    back:                           Back
+    rewardImage:                    Reward Image (Optional)
+    reward:                         Reward
+updateTask:
+    title:                          Edit
+    back:                           Back
+    taskTitle:                      Task
+    taskHint:                       Name what you want to get from your partner?                      
+    timeLimit:                      Time limit (optional)
+    rewardTitle:                    Reward
+    hintReward:                     What will your partner receive for this task?
+    rewardImage:                    Reward image (optional)
+    buttomTaskText:                 Save task
+    cameraText:                     Camera
+    galleryText:                    Gallery    
+viewReward:
+    back:                           Back
+    title:                          Reward
+    rewardDescription:              For this task you'll get?
+    rewardImage:                    Reward image (optional)
+viewTask:
+    back:                           Back
+    title:                          Task
+    rewardDescription:              For this task you'll get?
+    rewardImage:                    Reward image (optional)
+chatPage:
+    back:                           Back
+    newTermsText:                   Write your terms here
+    sentButtom:                     Send
+    open:                           Open       
+    openButtom1:                    View reward                     
+    openButtom2:                    Accept          
+    openButtom3:                    Reject
+    pendingReceiver:                Waiting for your partner
+    pendingReceiverButtomSender:    View task
+    pendingReceiverButtom1:         View reward         
+    pendingReceiverButtom2:         Reject   
+    pendingReceiverButtom3:         Accept         
+    started:                        Started
+    startedButtom1:                 Finish task
+    startedButtom2:                 View reward
+    rejected:                       Rejected
+    rejectedButtom:                 Waiting for new terms
+    completed:                      Completed
+    completedButtom:                View reward
+    startedButtomSender:            Waiting for your partner to complete task
+    rejectedSenderButtom1:          View task
+    notStarted:                     Not started
+    notStartedSender:               Not started
+    notStartedButtom1:              View task
+    confirmCompletedTask:           Are you sure this task is complete?
+    confirmCompletedTask1:          You'll receive your reward only after you complete this task succesfully
+    cancelButtom:                   Cancel
+    acceptButtom:                   Yes
+    rejectButton:                   No
+    selectOption:                   Select an option
+    initialValue:                   All tasks
+    value1:                         Coming soon
+    cameraText:                     Camera
+    galleryText:                    Gallery
+    taskHint:                       What does your partner needs you to do?                      
+    timeLimit:                      When does he/she needs it?
+    rewardHint:                     What will you get for it?
+    fimishTextDetail:               Detalle
+    fimishTextDetailDesc:           Your partner will be able to give you a positive or negative review after finishing this task    
+addPartners:                       
+    back:                           Back
+    title:                          Invite partner
+    text:                           Use your partners app to scan this QR Code and start enjoying HoneyIOU
+    buttomText:                     Scan QR code
+    messageSnackbar:                Request sent to
+    messageSnackbar1:               This QR code is invalid
+    showDialogButtom:               Accept
+    textDialogAfterScan1:           Now 
+    textDialogAfterScan2:           is on your partners list
+    textDialogAfterScan3:           Now you can send and receive tasks, you can also negotiate their terms and review his/her performance 
+    buttomII:                       Enter user code
+    addPopupText:                   Add using user unique code.
+    addPopupTextI:                  Type your partner code to add him/her into your partners list.
+    errortext:                      This user code doesn't exists, please try a different one.
+    userCodeDesc0:                  Also you can
+    userCodeDesc:                   Copy this code. Share it with your partners. Accept their requests (or auto accept them on settings 
+    userCodeDescI:                  Enjoy HoneyIOU.
+    snackbarCopyCode:               Your code has been copied to your clipboard
+    popUpPartnerRequesExistsTitle:  Can't add this user at this moment.
+    popUpPartnerRequesExistsDesc:   You've already sent a partner request to this user. 
+    popUpPartnerAccepExistsTitle:   Already on your partner list   
+    popUpPartnerAccepExistsDesc:    You've already added this partner. It's all ready to start sending or receiver tasks.
+    sameUserCodeTitle:              You can't add yourself.
+    sameUserCodeDesc:               Try with a different user code next time.
+    dialogCancelScan:               Scanning has been cancelled                                             
+    dialogCancelScanDesc:           No partner request has been sent
+partnersAccepted:    
+    title:                          My Partners 
+    back:                           Back
+    messageEmptyList:               You don't have any partners yet
+    deleteButtom:                   Delete
+    textDelete:                     Are you sure?
+    textDelete2:                    By deleting this partner all tasks associated will dissapear
+    textDelete3:                    Do you want to continue?
+    continueButtom:                 Continue
+    phone:                          Phone 
+    preferences:                    Preferences
+    addPartner:                     Add partner
+    acceptedButtom:                 Accepted    
+    textEmptyPreferences:           No preferences yet                  
+partnersRequest:
+    title:                          My Partners    
+    back:                           Back
+    preferences:                    Preferences
+    buttomAccept:                   Accept
+    messageEmptyList:               You don't have any pending partner requests to accept
+    messageAccept:                  Request accepted
+    messageDialogAccept:            You have accepted this request from 
+    messageDialogAccept2:           Succesfully
+    buttomtext:                     Add Partner  
+    description:                    Now you're able to send an receive tasks from                 
+notifications:  
+    title:                          Notifications Settings              
+    back:                           Back                       
+    pushNotifi:                     Push Notifications          
+    emailNotifi:                    Allow Emails
+images:
+    back:                           Back
+    title:                          My Images
+    galleryText:                    Gallery
+    cameraText:                     Camera
+    snackBarText:                   Your photo has been successfully uploaded             
+    text_1:                         You don't have any photos yet
+privacyPolicy:    
+    back:                           Back
+    title:                          Privacy Policy 
+termServ:                           
+    back:                           Back
+    title:                          Terms of Services
+phoneNumber:
+    back:                           Back
+    title:                          Change phone number
+    buttonText:                     Submit
+support:
+    title:                          Support Ticket
+    back:                           Back
+    emptyListMessage:               You haven't send any support messages yet
+    date:                           Date
+    subject:                        Subject
+    description:                    Description
+    submitTicket:                   Submit a new support ticket
+messageSupport:
+    title:                          Support Ticket
+    back:                           Back
+    message:                        Leave us a message and we'll contat you within 24 to 36 hours with a resolution 
+    subject:                        Subject
+    error:                          What is the issue you are experiencing with the app?
+    description:                    Description
+    descriptionHint:                Describe the issue you are experiencing with the app
+    submit:                         Submit
+    dialogTitle:                    Your support ticket has been created successfully
+    dialogsubTitle:                 We will contact you within 24 to 36 hours with a resolution
+    buttomDialog:                   Continue
+verify:
+    textVal:                        Enter your validation code
+    haventCode:                     I haven't received a validation code
+    buttomResend:                   Resend
+    verifyButtom:                   Verify
+    snackBarText1:                  Invalid OTP 
+    snackBarText2:                  The number you've entered seems to be invalid
+    snackBarText3:                  PhoneAuth started
+    snackBarText4:                  OTP Send
+    snackBarText5:                  OTP Resend
+    snackBarText6:                  Automatic PhoneAuth Timeout
+buyCredits:
+    title:                          IOU Credits
+    back:                           Back
+    remainCounter:                  Next coin in
+    remainCounterI:                 Next video in
+    popUpTitle:                     You've earned a credit
+    popUpDesc:                      You can use this credit starting tasks or paying tasks on behalf of your partner
+    popUpNoCredits:                 You don't have credits to pay for this task. Buy some credits or watch an ad to continue with this task.
+    popUppayPartner:                Your partner will be notified that your paid for this task.
+payYourPartner:
+    back:                           Back 
+    notStarted:                     Pay for your partner
+    buttomText:                     Pay
+    buttomText2:                    Continue 
+    buttomText3:                    Cancel
+    popUpText:                      Paying for this task will deduct 1 IOU Credit from your account
+    open:                           Open
+    started:                        Started
+    rejected:                       Rejected
+    pendingReceiver:                Pending receiver
+    reward:                         Reward
+notification:
+    back:                           Back
+    title:                          Notifications
+    receivedRequest:                has sent you a partner request.
+    autoAllow:                      has been automatically added to your partners.
+    updateTask:                     updated a task.
+    completedTask:                  completed a task.
+    rejectedTask:                   rejected a task.
+    startedTask:                    started a task.
+    paidUpFrontTask:                has paid for your task.
+    openTask:                       opened a task you sent.
+    sendMessage:                    has sent you a message on one of your tasks.
+    newTask:                        has sent you a task.       
+    textEmpty:                      You don't have any notifications yet
+onboarding:
+    titleTask:                      Change the entry light
+    taskButtom:                     Open
+    titleExp:                       Welcome to Honey IOU
+    reward:                         Reward
+    rewardDesExample:               Put the kids to bed
+    openTask:                       Open negotiations
+    status:                         Open
+    addTask:                        Add a task
+    addTaskText:                    Create a task that you want your partner to do you and give a final approval on the negotiation of tasks you've created or received
+    credits:                        Credits
+    creditsDescriptions:            Each task you negotiate will require one credit. You can get one free credit per day by watching a video. Don't want to wait? You can purchase credits to continue immediately!
+    negociate:                      Negotiate
+    negociateDescriptions:          Open tasks your partners have created for you and negotiate your terms
+    finishOnboarding:               Enjoy with your partners 
+    buttomStarted:                  Get started

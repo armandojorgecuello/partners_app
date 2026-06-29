@@ -1,5 +1,5 @@
-name: honey_iou_updated
-description: "A new Flutter project."
+name: partners_app
+description: "Partners app."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -41,24 +41,17 @@ dependencies:
   flutter_verification_code: ^1.1.2+1
   font_awesome_flutter: ^10.2.1
   # barcode_scan: ^3.0.1
-  provider: ^6.0.4
   pin_code_fields:
-  flutter_login_facebook: ^2.0.1
   firebase_storage: ^13.0.4
   image_picker: ^1.2.1
   intl_phone_number_input: ^0.7.1
-  # cloud_firestore: ^6.1.0
-  # google_sign_in:
-  # firebase_auth:
-  # firebase_core:
   cached_network_image: ^3.2.0
-  intl: ^0.19.0
+  intl: ^0.20.2
   flutter_spinkit: ^5.1.0
   rxdart: ^0.28.0
   qr_flutter: ^4.0.0
   # firebase_messaging:
   yaml: ^3.1.1
-  shared_preferences: ^2.0.15
   flutter_slidable: ^4.0.3
   country_code_picker: ^3.4.1
   geolocator: ^14.0.2
@@ -72,6 +65,11 @@ dependencies:
   flutter_countdown_timer:
   flutter_staggered_grid_view:
   sticky_headers:
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.4
+  cloud_firestore: ^6.6.0
+  google_sign_in: ^7.2.0
+  flutter_riverpod: ^3.3.2
 
 dev_dependencies:
   flutter_test:
@@ -79,18 +77,22 @@ dev_dependencies:
 
   flutter_launcher_icons:
 
-flutter_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/icon/icon.png"
-  adaptive_icon_background: "assets/icon/movie-icon.png"
-
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  change_app_package_name: ^1.5.0
+  mocktail: ^1.0.5
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#0F9D75"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -104,7 +106,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/image/Screenshot1.png
     - assets/image/coin.png
     - assets/image/Credits_Icon1.png
     - assets/image/Credits_Icon.png
@@ -115,12 +116,9 @@ flutter:
     - assets/image/notification.png
     - assets/image/coin_20.png
     - assets/image/coin_10.png
-    - assets/image/onboarding.png
     - assets/image/no_image.png
     - assets/loading/loading.gif
-    - data/
     - lang/
-    - assets/loading/jar-loading.gif
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -134,16 +132,6 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Yesteryear
-      fonts:
-        - asset: fonts/Yesteryear-Regular.ttf
-    #       - asset: Quick Kiss Personal Use.ttf
-    #         style: italic
-    - family: Quick
-      fonts:
-        - asset: fonts/QuickKissPersonalUse.ttf
-    #       - asset: fonts/TrajanPro_Bold.ttf
-    #         weight: 700- family: Quick
     - family: Sans
       fonts:
         - asset: fonts/SourceSansPro-Bold.ttf

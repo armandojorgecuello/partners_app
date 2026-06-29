@@ -1,9 +1,20 @@
 loginPage:
-    appName:                        Honey IOU
-    text_1:                         Bienvenido a Honey IOU 
-    text_2:                         Ingrese su numero de teléfono, y le estaremos enviando un código de verificación
-    buttomText:                     Continuar
+    appName:                        Partners
+    text_1:                         Bienvenido a Partners
+    text_2:                         Inicia sesión con tu correo y contraseña para continuar
+    emailLabel:                     Correo electrónico
+    emailHint:                      tucorreo@ejemplo.com
+    passwordLabel:                  Contraseña
+    passwordHint:                   Ingresa tu contraseña
+    buttomText:                     Iniciar sesión
+    googleButtomText:                Continuar con Google
+    invalidEmail:                   Ese correo no parece válido
+    forgotPassword:                 ¿Olvidaste tu contraseña?
+    resetEmailSent:                  Te enviamos un enlace para restablecer tu contraseña
+    noAccountText:                  ¿No tienes cuenta?
+    signUpLink:                     Crear una
 home_page:
+    noTasks:                        Aún no tienes tareas. Toca + para crear una
     emtpy_request:                  Tu búsqueda no puede estar vacía
     search_hint:                    Escribe aquí lo que quieras buscar...
     send:                           Para
@@ -19,7 +30,7 @@ home_page:
     endingSoon:                     Proximas a finalizar
     expired:                        Expiradas 
     noPartner:                      Vemos que no tienes ningua pareja
-    noPartner1:                     Para comenzar a divertirte en Honey IOU debes agregar una pareja
+    noPartner1:                     Para comenzar a divertirte en Partners debes agregar una pareja
     noPartner2:                     Agrega una pareja
     noTask:                         No tienes tareas asignadas
     noOpenTask:                     No tienes tareas abiertas    
@@ -100,7 +111,7 @@ profileInputs:
     email:                          Correo
     emailLabel:                     Escribe tu correo
     partnerCheck:                   Quiero auto aprobar todas las solicitudes de pareja
-    accepTerms:                     Deseo recibir correos electrónicos con noticias y actualizaciones sobre la aplicación Honey IOU
+    accepTerms:                     Deseo recibir correos electrónicos con noticias y actualizaciones sobre la aplicación Partners
     textButtomProfile:              Guardar
     snackBarText:                   Tu perfil ha sido atualizado
     pictureProfileText:             Cambiar foto de perfil
@@ -205,7 +216,7 @@ chatPage:
 addPartners:                       
     back:                           Atrás
     title:                          Agregar pareja
-    text:                           Use la aplicación de sus parejas para escanear este código QR y comience a disfrutar de HoneyIOU
+    text:                           Use la aplicación de sus parejas para escanear este código QR y comience a disfrutar de Partners
     buttomText:                     Escanear código QR
     messageSnackbar:                Solicitud enviada a
     messageSnackbar1:               Código QR invalido
@@ -219,7 +230,7 @@ addPartners:
     errortext:                      Este código de usuario no existe, por favor intenta con uno diferente.
     userCodeDesc0:                  Tambien puedes
     userCodeDesc:                   Copiar este código. Compártelo con tus parejas. Acepta sus solicitudes (o auto aceptalas en configuraciones 
-    userCodeDescI:                  Disfruta HoneyIOU.
+    userCodeDescI:                  Disfruta Partners.
     snackbarCopyCode:               Tu codigo ha sido copiado a tu portapapeles
     popUpPartnerRequesExistsTitle:  No se puede añadir a este usuario en este momento.
     popUpPartnerRequesExistsDesc:   Ya enviaste una solicitud de pareja a este usuario. 
@@ -276,6 +287,9 @@ phoneNumber:
     back:                           Atrás
     title:                          Cambiar número celular
     buttonText:                     Enviar código de verificacion
+    hint:                           ej. +573001234567
+    codeSent:                       Ingresa el código que te enviamos
+    success:                        Tu número fue actualizado
 support:
     title:                          Soporte Técnico
     back:                           Atrás
@@ -296,17 +310,18 @@ messageSupport:
     dialogTitle:                    Tu ticket de soporte ha sido creado satisfactoriamente
     dialogsubTitle:                 Nos comunicaremos con usted dentro de 24 a 36 horas con una solución
     buttomDialog:                   Continuar
-verify:
-    textVal:                        Ingresa tu código de verificación
-    haventCode:                     No he recibido un codigo de verificación
-    buttomResend:                   Reenviar
-    verifyButtom:                   Verificar
-    snackBarText1:                  OTP inválido
-    snackBarText2:                  El numero parece inválido
-    snackBarText3:                  Autenticación iniciada
-    snackBarText4:                  OTP enviado
-    snackBarText5:                  OTP reenviado
-    snackBarText6:                  Tiempo de espera agotado
+signUpPage:
+    title:                          Crea tu cuenta
+    emailLabel:                     Correo electrónico
+    emailHint:                      tucorreo@ejemplo.com
+    passwordLabel:                  Contraseña
+    passwordHint:                   Al menos 6 caracteres
+    confirmPasswordLabel:           Confirmar contraseña
+    confirmPasswordHint:            Vuelve a ingresar tu contraseña
+    passwordMismatch:               Las contraseñas no coinciden
+    buttomText:                     Crear cuenta
+    haveAccountText:                ¿Ya tienes cuenta?
+    loginLink:                      Iniciar sesión
 buyCredits:
     title:                          Créditos IOU
     back:                           Atrás
@@ -345,7 +360,7 @@ notification:
 onboarding:
     titleTask:                      Cambia la Luz de la entrada
     taskButtom:                     Abrir
-    titleExp:                       Bienvenido a Honey IOU
+    titleExp:                       Bienvenido a Partners
     reward:                         Recompensa
     rewardDesExample:               Llevar los niños a la cama
     openTask:                       Negociaciones abiertas

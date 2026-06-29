@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "honey_iou_updated" "\0"
+            VALUE "FileDescription", "partners_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "honey_iou_updated" "\0"
+            VALUE "InternalName", "partners_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "honey_iou_updated.exe" "\0"
-            VALUE "ProductName", "honey_iou_updated" "\0"
+            VALUE "OriginalFilename", "partners_app.exe" "\0"
+            VALUE "ProductName", "partners_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,9 +1,20 @@
 loginPage:
-    appName:                        Honey IOU
-    text_1:                         Welcome to adults tasks         
-    text_2:                         Please enter your phone number, we will sent you a validation code
-    buttomText:                     Continue
+    appName:                        Partners
+    text_1:                         Welcome to adults tasks
+    text_2:                         Sign in with your email and password to continue
+    emailLabel:                     Email
+    emailHint:                      you@example.com
+    passwordLabel:                  Password
+    passwordHint:                   Enter your password
+    buttomText:                     Sign in
+    googleButtomText:                Continue with Google
+    invalidEmail:                   That email doesn't look right
+    forgotPassword:                 Forgot your password?
+    resetEmailSent:                  We sent you a link to reset your password
+    noAccountText:                  Don't have an account?
+    signUpLink:                     Create one
 home_page:
+    noTasks:                        You don't have any tasks yet. Tap + to create one
     emtpy_request:                  Your search can't be empty
     search_hint:                    Type here your search terms...
     send:                           To
@@ -19,7 +30,7 @@ home_page:
     endingSoon:                     Ending soon
     expired:                        Expired          
     noPartner:                      It seems you don't have any partners yet
-    noPartner1:                     To be able to enjoy Honey IOU you need to first to add a partner
+    noPartner1:                     To be able to enjoy Partners you need to first to add a partner
     noPartner2:                     Add a partner
     noTask:                         You have not assigned tasks
     noOpenTask:                     You have not open tasks
@@ -99,7 +110,7 @@ profileInputs:
     email:                          Email
     emailLabel:                     Enter your e-mail
     partnerCheck:                   I want to auto approve all partner requests
-    accepTerms:                     I want to receive emails with news and updates about HoneyIOU app
+    accepTerms:                     I want to receive emails with news and updates about Partners app
     textButtomProfile:              Save
     snackBarText:                   Your profile has been updated
     pictureProfileText:             Change profile picture
@@ -204,7 +215,7 @@ chatPage:
 addPartners:                       
     back:                           Back
     title:                          Invite partner
-    text:                           Use your partners app to scan this QR Code and start enjoying HoneyIOU
+    text:                           Use your partners app to scan this QR Code and start enjoying Partners
     buttomText:                     Scan QR code
     messageSnackbar:                Request sent to
     messageSnackbar1:               This QR code is invalid
@@ -218,7 +229,7 @@ addPartners:
     errortext:                      This user code doesn't exists, please try a different one.
     userCodeDesc0:                  Also you can
     userCodeDesc:                   Copy this code. Share it with your partners. Accept their requests (or auto accept them on settings 
-    userCodeDescI:                  Enjoy HoneyIOU.
+    userCodeDescI:                  Enjoy Partners.
     snackbarCopyCode:               Your code has been copied to your clipboard
     popUpPartnerRequesExistsTitle:  Can't add this user at this moment.
     popUpPartnerRequesExistsDesc:   You've already sent a partner request to this user. 
@@ -275,6 +286,9 @@ phoneNumber:
     back:                           Back
     title:                          Change phone number
     buttonText:                     Submit
+    hint:                           e.g. +14155552671
+    codeSent:                       Enter the code we sent you
+    success:                        Your phone number was updated
 support:
     title:                          Support Ticket
     back:                           Back
@@ -295,17 +309,18 @@ messageSupport:
     dialogTitle:                    Your support ticket has been created successfully
     dialogsubTitle:                 We will contact you within 24 to 36 hours with a resolution
     buttomDialog:                   Continue
-verify:
-    textVal:                        Enter your validation code
-    haventCode:                     I haven't received a validation code
-    buttomResend:                   Resend
-    verifyButtom:                   Verify
-    snackBarText1:                  Invalid OTP 
-    snackBarText2:                  The number you've entered seems to be invalid
-    snackBarText3:                  PhoneAuth started
-    snackBarText4:                  OTP Send
-    snackBarText5:                  OTP Resend
-    snackBarText6:                  Automatic PhoneAuth Timeout
+signUpPage:
+    title:                          Create your account
+    emailLabel:                     Email
+    emailHint:                      you@example.com
+    passwordLabel:                  Password
+    passwordHint:                   At least 6 characters
+    confirmPasswordLabel:           Confirm password
+    confirmPasswordHint:            Re-enter your password
+    passwordMismatch:               Passwords don't match
+    buttomText:                     Create account
+    haveAccountText:                Already have an account?
+    loginLink:                      Sign in
 buyCredits:
     title:                          IOU Credits
     back:                           Back
@@ -344,7 +359,7 @@ notification:
 onboarding:
     titleTask:                      Change the entry light
     taskButtom:                     Open
-    titleExp:                       Welcome to Honey IOU
+    titleExp:                       Welcome to Partners
     reward:                         Reward
     rewardDesExample:               Put the kids to bed
     openTask:                       Open negotiations

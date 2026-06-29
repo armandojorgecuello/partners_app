@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I{} sh -c 'echo \"{}: $\\(grep -c \"^\\\\s*//\" \"{}\"\\)\"')",
+      "Bash(sort -t: -k2 -n -r)",
+      "Bash(git -C /Users/JorgeCuello/partners_app mv android/app/src/main/kotlin/com/example/honey_iou_updated/MainActivity.kt android/app/src/main/kotlin/com/atomicvelvet/honeyiou/MainActivity.kt)",
+      "Bash(keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android)",
+      "Bash(git rm *)",
+      "Read(//opt/homebrew/lib/node_modules/firebase-tools/lib/deploy/storage/**)",
+      "Bash(flutter devices *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(xcrun simctl *)",
+      "Bash(open -a Simulator)",
+      "Bash(nohup flutter run -d 24A95F82-A69E-4544-858D-40933DD21394 --debug)",
+      "Bash(dart run *)",
+      "Bash(md5 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png android/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png)",
+      "Bash(./gradlew signingReport)",
+      "Bash(dart format *)",
+      "Bash(awk -F' -> ' '{print $2}')",
+      "Bash(xargs -I{} sh -c 'grep -n \"grin\\\\|slightly_frowning_face\\\\|class Demoji\\\\|static String\" {} | head -20')",
+      "Bash(find ~/.pub-cache /opt/homebrew -iname \"emoji.dart\" -path \"*demoji*\" 2>/dev/null | head -5)",
+      "Read(//opt/homebrew/**)",
+      "Bash(dart fix *)",
+      "Bash(npm --version)",
+      "Bash(flutter pub *)",
+      "Bash(flutter test *)",
+      "Bash(flutter emulators *)",
+      "Bash(adb devices *)",
+      "Bash(xargs -I{} echo {})"
+    ]
+  }
+}

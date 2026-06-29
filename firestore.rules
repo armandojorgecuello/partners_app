@@ -1,0 +1,62 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    match /users/{uid} {
+      allow get: if signedIn();
+      allow write: if signedIn() && request.auth.uid == uid;
+    }
+
+    match /usercodes/{code} {
+      allow get: if signedIn();
+      allow create: if signedIn() && request.resource.data.uid == request.auth.uid;
+      allow update, delete: if false;
+    }
+
+    match /partner_requests/{requestId} {
+      allow create: if signedIn() && request.resource.data.sender_uid == request.auth.uid;
+      allow read, delete: if signedIn() &&
+        (resource.data.sender_uid == request.auth.uid || resource.data.receiver_uid == request.auth.uid);
+    }
+
+    match /partners_accepted/{uid}/partners/{partnerUid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow write: if signedIn() && (request.auth.uid == uid || request.auth.uid == partnerUid);
+    }
+
+    match /notifications/{uid}/items/{notificationId} {
+      allow read, update, delete: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn() && request.resource.data.actor_uid == request.auth.uid;
+    }
+
+    match /user_gallery_images/{uid}/images/{imageId} {
+      allow read, write: if signedIn() && request.auth.uid == uid;
+    }
+
+    match /support_messages/{uid}/tickets/{ticketId} {
+      allow read, create: if signedIn() && request.auth.uid == uid;
+      allow update, delete: if false;
+    }
+
+    match /user_tasks/{taskId} {
+      allow create: if signedIn() && request.resource.data.sender_uid == request.auth.uid;
+      allow read, update, delete: if signedIn() &&
+        (resource.data.sender_uid == request.auth.uid || resource.data.receiver_uid == request.auth.uid);
+
+      function isTaskParticipant() {
+        let task = get(/databases/$(database)/documents/user_tasks/$(taskId)).data;
+        return request.auth.uid == task.sender_uid || request.auth.uid == task.receiver_uid;
+      }
+
+      match /messages/{messageId} {
+        allow read: if signedIn() && isTaskParticipant();
+        allow create: if signedIn() && isTaskParticipant() && request.resource.data.uid_sender == request.auth.uid;
+        allow update, delete: if false;
+      }
+    }
+  }
+}
